@@ -1,5 +1,5 @@
 const Sequelize = require('sequelize')
-const connectionString = 'postgres://postgres:@localhost:5433/doAn'
+const connectionString ='postgres://tainguyen:123456@localhost:5432/thuchanh' 
 
 const db = new Sequelize(connectionString)
 

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<!-- Created By CodingNepal -->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Home page</title>
+    <link rel="stylesheet" href="../lib/css/style.css" />
+    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+    <nav>
+      <div class="logo">Sacombank</div>
+      <label for="btn" class="icon">
+        <span class="fa fa-bars"></span>
+      </label>
+      <input type="checkbox" id="btn" />
+      <ul>
+        <li><a href="#">Trang chủ</a></li>
+        <li>
+          <a href="#">Giới thiệu</a>
+        </li>
+        <li>
+          <label for="btn-2" class="show">Tài khoản +</label>
+          <a href="#">Tài khoản</a>
+          <input type="checkbox" id="btn-2" />
+          <ul>
+            <li><a href="#">Tài khoản thanh toán</a></li>
+            <li><a href="#">Tài khoản tiết kiệm</a></li>
+          </ul>
+        </li>
+        <li>
+          <label for="btn-3" class="show">Chuyển khoản +</label>
+          <a href="#">Chuyển khoản</a>
+          <input type="checkbox" id="btn-2" />
+          <ul>
+            <li><a href="#">Chuyển khoản cùng ngân hàng</a></li>
+            <li><a href="#">Chuyển khoản liên ngân hàng</a></li>
+          </ul>
+        </li>
+        
+        <li>
+          <label for="btn-4" class="show">Đăng nhập Internet Banking +</label>
+          <a href="#">Đăng nhập Internet Banking</a>
+          <input type="checkbox" id="btn-3" />
+          <ul>
+            <li><a href="#">Đăng kí nhanh</a></li>
+          
+          </ul>
+        </li>
+       
+      </ul>
+    </nav>
+    <div class="content">
+    
+    </div>
+    <script>
+      $(".icon").click(function () {
+        $("span").toggleClass("cancel");
+      });
+    </script>
+  </body>
+</html>
