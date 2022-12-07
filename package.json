@@ -10,10 +10,10 @@
   "author": "Tai Nguyen <ntai8463@gmail.com>",
   "license": "ISC",
   "dependencies": {
-    "body-parser": "^1.19.0",
+    "body-parser": "^1.20.1",
     "cookie-session": "^1.4.0",
     "ejs": "^3.1.2",
-    "express": "^4.17.1",
+    "express": "^4.18.2",
     "express-async-handler": "^1.1.4",
     "express-redirect-loop": "0.0.8"
   }
